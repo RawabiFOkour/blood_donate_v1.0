@@ -1,0 +1,71 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css";
+
+.table-striped > tbody > tr:nth-child(2n + 1) > td,
+.table-striped > tbody > tr:nth-child(2n + 1) > th {
+  background-color: rgb(235, 140, 140);
+}
+/* rawabi */
+#AddDonorButton{
+  margin-top: 3px;
+  width :130px
+}
+#AddDonorButton:hover {
+  background-color: white;
+  color: rgb(179, 42, 42);
+  box-shadow: 2px 2px 2px 2px hsl(0, 54%, 54%);
+}
+#borderAddDonor{
+ border: 1px solid hsl(0, 54%, 54%);
+ border-radius: 13%
+}
+#borderAddDonor:hover {
+  box-shadow: 3px 3px 3px 3px hsl(0, 54%, 54%);
+  
+}
+
+.inputEfect:hover {
+  width: 270px;
+  border: 1px solid hsl(0, 54%, 54%);
+  box-shadow: 1px 1px 1px 1px hsl(0, 54%, 54%);
+}
+
+.font {
+  font-style: italic;
+  color: hsl(0, 54%, 54%);
+  font-weight: bold;
+}
+
+#RequsterORDonor{
+  /* border: 1px solid red; */
+  
+}
+
+#nav{
+  border: 1px solid green;
+  height: 60px
+
+}
+
+#footer{
+  border: 1px solid blue;
+  height: 70px;
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  
+}
+
+#logo{
+  width: 120px;
+  height: 55px;
+}
+#Aboutbutton{
+  font-size: 15px;
+  padding-bottom: 12px
+}
+#Aboutbutton:hover{
+  background-color: white;
+  color: rgb(179, 42, 42);
+}
+
